@@ -1,0 +1,17 @@
+{
+  "name": "api.fastify.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "fastify-swagger": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
